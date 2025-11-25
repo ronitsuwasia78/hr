@@ -15,7 +15,7 @@ In this project, I analyzed a heart disease dataset with appropriate preprocessi
 '''
 
 # Path to the .pkl file inside ml_model
-model_path = os.path.join(os.path.dirname(__file__), "ml_model", r"C:\Users\ronit\OneDrive\Pictures\heartdisease\Heart.pkl")
+model_path = os.path.join(os.path.dirname(__file__), "ml_model", "ml_model/Heart.pkl")
 
 # Load the model
 with open(model_path, "rb") as f:
